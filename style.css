@@ -11,8 +11,22 @@ a:hover {
 	text-decoration-line: underline;
 }
 
+.seriftext {
+	font-family: 'IBM Plex Serif' !important;
+	font-size: 18px;
+}
+
+.serifheading {
+	font-family: 'IBM Plex Serif' !important;
+	font-weight: normal;
+}
+
 .wrap {
 	flex-wrap: wrap;
+}
+
+.space-between {
+	justify-content: space-between;
 }
 
 .flex-horizontal {
@@ -23,7 +37,6 @@ a:hover {
 .flex-vertical {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 }
 
@@ -60,13 +73,6 @@ a:hover {
 	margin-left: 5px;
 }
 
-#right {
-}
-
-#projects {
-	/* max-height: 300px; */
-}
-
 .project {
 	max-height: 200px;
 	max-width: 300px;
@@ -84,4 +90,40 @@ h4 {
 
 .project .flex-horizontal span {
 	margin-top: 3px;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+#toggle {
+	margin-top: 20px;
+}
+
+#resume {
+	margin-left: 15px;
+}
+
+.part {
+	max-width: 900px;
+}
+
+.part div li {
+	display: block;
+}
+
+.part h3 {
+	margin: 0;
+}
+
+.part h4 {
+	margin: 0;
+}
+
+.part div {
+	align-items: center;
 }
