@@ -1,8 +1,8 @@
 use yew::prelude::*;
 
-pub struct Blog {}
+pub struct Uses {}
 
-impl Component for Blog {
+impl Component for Uses {
     type Properties = ();
     type Message = ();
 
@@ -18,7 +18,7 @@ impl Component for Blog {
     fn view(&self) -> Html {
         html! {
             <div>
-                <h1>{"Blog"}</h1>
+                <h1>{"/Uses"}</h1>
             </div>
         }
     }

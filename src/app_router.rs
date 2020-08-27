@@ -2,12 +2,12 @@ use yew::prelude::*;
 use yew_router::{prelude::*, Switch};
 
 use crate::components::footer::Footer;
-use crate::routes::{blog::Blog, index::Index};
+use crate::routes::{index::Index, uses::Uses};
 
 #[derive(Switch, Debug, Clone)]
 pub enum AppRoute {
-    #[to = "/blog"]
-    Blog,
+    #[to = "/uses"]
+    Uses,
     #[to = "/"]
     Index,
 }
@@ -37,7 +37,11 @@ impl Component for AppRouter {
                     <div class="flex-vertical" id="sidebar">
                         <div class="flex-horizontal">
                             <RouterButton<AppRoute> route=AppRoute::Index classes="block"> {"Home"} </RouterButton<AppRoute>>
-                            <RouterButton<AppRoute> route=AppRoute::Blog classes="block"> {"Blog"} </RouterButton<AppRoute>>
+                            <RouterButton<AppRoute> route=AppRoute::Uses classes="block"> {"Uses"} </RouterButton<AppRoute>>
+
+                            <a href="https://bkkaggle.github.io/blog">
+                                <div class="block accent"><span>{"Blog"}</span></div>
+                            </a>
                         </div>
                         <img class="profile-pic" src="https://avatars1.githubusercontent.com/u/29356759?u=82124ceed1df5a85de458689cd5ee572b34d8ee9&v=4" alt="Goose profile picture" />
                         <div class="block">
@@ -110,7 +114,7 @@ impl Component for AppRouter {
                         render = Router::render(|switch: AppRoute| {
                             match switch {
                                 AppRoute::Index => html!{<Index />},
-                                AppRoute::Blog => html! {<Blog />},
+                                AppRoute::Uses => html! {<Uses />},
                             }
                         })
                     />

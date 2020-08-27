@@ -17,7 +17,7 @@ impl Component for Footer {
     }
     fn view(&self) -> Html {
         html! {
-            <div class="flex-horizontal space-between" id="footer">
+            <div class="flex-horizontal space-between wrap" id="footer">
                 <div>
                     {"© Bilal Khan, 2020"}
                 </div>
