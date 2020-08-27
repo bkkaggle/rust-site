@@ -301,8 +301,8 @@ impl Component for Resume {
                             html! {
                                 <span>
                                     {"I'm surprised the website's still up at "}
-                                    <a href="https://bilal.software/mission-control/">
-                                        {"bilal.software/mission-control"}
+                                    <a href="https://bkkaggle.github.io/mission-control/">
+                                        {"bkkaggle.github.io/mission-control"}
                                     </a>{". The code is available "}
                                     <a href="https://github.com/bkkaggle/mission-control">{"here"}</a>
                                 </span>
