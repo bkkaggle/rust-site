@@ -2,6 +2,8 @@
 use wasm_bindgen::prelude::*;
 
 mod app_router;
+
+mod components;
 mod routes;
 
 use app_router::AppRouter;
