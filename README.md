@@ -4,7 +4,7 @@
 - `mkdir static`
 - `wasm-pack build --target web --out-name wasm --out-dir ./static`
 - `python3 -m http.server 8000`
-- `npx gh-pages -b gh-pages -d static`
+- `npx gh-pages -b gh-pages -d .`
 - `cargo install cargo-web`
   - needs std-web
 - `npm install -g local-web-server`
