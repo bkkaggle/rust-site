@@ -9,7 +9,9 @@
   - needs std-web
 - `npm install -g local-web-server`
 - `ws --spa index.html`
-- `wasm-pack build --target web --out-name wasm --out-dir ./static && cd static && ws --spa index.html`
+- `cd .. && wasm-pack build --target web --out-name wasm --out-dir ./static && cd static && ws --spa index.html`
+
+might be some problem with `.gitignore` in `/static` ignoring `style.css`, so i have a copy of it as `style_copy.css`
 
 ## wishlist
 

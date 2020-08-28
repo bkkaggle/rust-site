@@ -25,6 +25,8 @@ impl Component for Footer {
                 <div>
                     {"made with Rust, "}<a href="https://yew.rs/">{"Yew"}</a>{", and "}<a href="https://thesephist.github.io/blocks.css/">{"blocks.css"}</a>
                 </div>
+
+                <div> {"Deployed with "} <a href="https://github.com/features/codespaces">{"Github Codespaces"}</a> </div>
             </div>
         }
     }
