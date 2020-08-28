@@ -29,7 +29,7 @@ impl Component for Projects {
                     </div>
                     <div class="block project">
                         <div class="flex-horizontal">
-                            <h2><a href="https://github.com/bkkaggle/pytorch-zoo">{"PyTorch Zoo"}</a></h2>
+                            <h2><a href="https://github.com/bkkaggle/pytorch_zoo">{"PyTorch Zoo"}</a></h2>
                             <span>{"70+ ⭐️"}</span>
                         </div>
                         <h4>{"A collection of useful modules and utilities (especially helpful for kaggling) not available in Pytorch"}</h4>

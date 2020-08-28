@@ -39,6 +39,10 @@ impl Component for AppRouter {
                             <RouterButton<AppRoute> route=AppRoute::Index classes="block"> {"Home"} </RouterButton<AppRoute>>
                             <RouterButton<AppRoute> route=AppRoute::Uses classes="block"> {"Uses"} </RouterButton<AppRoute>>
 
+                            <a href="https://docs.google.com/document/d/1DpiKECBhfJTCwUIBjQKLalEfrL6AK9rQLA7PabPfGpY/edit?usp=sharing">
+                                <div class="block"><span>{"Resume"}</span></div>
+                            </a>
+
                             <a href="https://bkkaggle.github.io/blog">
                                 <div class="block accent"><span>{"Blog"}</span></div>
                             </a>

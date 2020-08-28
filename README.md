@@ -23,3 +23,8 @@
 - code splitting?
 - server side rendering
 - react style passing state handler to child?
+
+## todo
+
+- webpack
+- 

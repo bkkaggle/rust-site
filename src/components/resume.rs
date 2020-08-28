@@ -2,6 +2,7 @@ use yew::prelude::*;
 
 struct Part {
     title: String,
+    link: Option<String>,
     role: String,
     time: String,
     items: Vec<Html>,
@@ -24,7 +25,17 @@ fn render_part(part: &Part, expanded: &bool) -> Html {
                 }
             }
             <div class="flex-horizontal space-between wrap">
-                <h3 class="serifheading">{&part.title}</h3>
+                {
+                    match &part.link {
+                        Some(path) => html! {
+                        <a href={path.clone()}>
+                            <h3 class="serifheading">
+                                {&part.title}
+                            </h3>
+                        </a>},
+                        None => html! {<h3 class="serifheading">{&part.title}</h3>},
+                    }
+                }
                 <h4>{&part.role} {" — "} {&part.time}</h4>
             </div>
             <br />
@@ -73,6 +84,9 @@ impl Component for Resume {
                 parts: vec![
                     Part {
                         title: "NLP research project".to_string(),
+                        link: Some(
+                            "https://github.com/bkkaggle/lm-training-research-project".to_string(),
+                        ),
                         role: "Replicated OpenAI's GPT-2 model".to_string(),
                         time: "March 2020 - May 2020".to_string(),
                         items: vec![
@@ -101,6 +115,7 @@ impl Component for Resume {
                     },
                     Part {
                         title: "SATisfied".to_string(),
+                        link: None,
                         role: "Mobile and Backend developer".to_string(),
                         time: "Sep 2019 - Now".to_string(),
                         items: vec![
@@ -110,6 +125,7 @@ impl Component for Resume {
                     },
                     Part {
                         title: "Kaggle".to_string(),
+                        link: Some("https://kaggle.com/bkkaggle".to_string()),
                         role: "Highest rank: 798/124,000+".to_string(),
                         time: "Dec 2017 - July 2019".to_string(),
                         items: vec![
@@ -144,6 +160,7 @@ impl Component for Resume {
                 parts: vec![
                     Part {
                         title: "University of Waterloo".to_string(),
+                        link: None,
                         role: "Software Engineering".to_string(),
                         time: "Sep 2020 - 2025".to_string(),
                         items: vec![
@@ -153,6 +170,7 @@ impl Component for Resume {
                     },
                     Part {
                         title: "Coursera".to_string(),
+                        link: None,
                         role: "Deep Learning Specialization".to_string(),
                         time: "Nov 2017 - Feb 2018".to_string(),
                         items: vec![html! {
@@ -172,6 +190,7 @@ impl Component for Resume {
                 parts: vec![
                     Part {
                         title: "Raytracer".to_string(),
+                        link: Some("https://github.com/bkkaggle/raytracer".to_string()),
                         role: "A simple raytracer book that I followed".to_string(),
                         time: "July 2020".to_string(),
                         items: vec![
@@ -191,6 +210,7 @@ impl Component for Resume {
                     },
                     Part {
                         title: "L2".to_string(),
+                        link: Some("https://github.com/bkkaggle/L2".to_string()),
                         role: "A fast, BLAS-accelerated machine learing library".to_string(),
                         time: "May 2020 - June 2020".to_string(),
                         items: vec![
@@ -229,6 +249,7 @@ impl Component for Resume {
                     },
                     Part {
                         title: "Competitive programming".to_string(),
+                        link: Some("https://github.com/bkkaggle/ccc".to_string()),
                         role: "Solutions and notes".to_string(),
                         time: "Feb 2020".to_string(),
                         items: vec![html! {
@@ -240,6 +261,7 @@ impl Component for Resume {
                     },
                     Part {
                         title: "Pytorch Zoo".to_string(),
+                        link: Some("https://github.com/bkkaggle/pytorch_zoo".to_string()),
                         role: "A Pytorch utility library".to_string(),
                         time: "June 2019".to_string(),
                         items: vec![
@@ -262,6 +284,9 @@ impl Component for Resume {
                     },
                     Part {
                         title: "Machine Learning Flight Rules".to_string(),
+                        link: Some(
+                            "https://github.com/bkkaggle/machine-learning-flight-rules".to_string(),
+                        ),
                         role: "A guide".to_string(),
                         time: "Sep 2019".to_string(),
                         items: vec![
@@ -271,13 +296,16 @@ impl Component for Resume {
                                     {"You can take a look at it on the Github "}
                                     <a href="https://github.com/bkkaggle/machine-learning-flight-rules">
                                         {"repo"}
-                                    </a>{" or as a "}<a href="/2020/7/3/ml-flight-rules/">{"blog post"}</a>
+                                    </a>{" or as a "}<a href="/blog/2020/7/3/ml-flight-rules/">{"blog post"}</a>
                                 </span>
                             },
                         ],
                     },
                     Part {
                         title: "Handwritten math expression recognition".to_string(),
+                        link: Some(
+                            "https://github.com/bkkaggle/math-expression-recognition".to_string(),
+                        ),
                         role: "Implemented papers".to_string(),
                         time: "Feb 2019 - May 2019".to_string(),
                         items: vec![
@@ -294,6 +322,7 @@ impl Component for Resume {
                     },
                     Part {
                         title: "Mission Control".to_string(),
+                        link: Some("https://bkkaggle.github.io/mission-control".to_string()),
                         role: "View pictures beamed back from Mars".to_string(),
                         time: "Dec 2017".to_string(),
                         items: vec![
@@ -316,6 +345,7 @@ impl Component for Resume {
                 parts: vec![
                     Part {
                         title: "Running".to_string(),
+                        link: None,
                         role: "10 min/mile".to_string(),
                         time: "2020 - Now".to_string(),
                         items: vec![
@@ -324,6 +354,7 @@ impl Component for Resume {
                     },
                     Part {
                         title: "Writing".to_string(),
+                        link: Some("/blog".to_string()),
                         role: "Mostly technical blog posts".to_string(),
                         time: "2020 - Now".to_string(),
                         items: vec![
@@ -349,6 +380,7 @@ impl Component for Resume {
                     },
                     Part {
                         title: "Servers".to_string(),
+                        link: None,
                         role: "Self-hosting".to_string(),
                         time: "2019".to_string(),
                         items: vec![
@@ -360,6 +392,7 @@ impl Component for Resume {
                     },
                     Part {
                         title: "Languages".to_string(),
+                        link: None,
                         role: "French, Japanese, and Chinese".to_string(),
                         time: "2016 - 2020".to_string(),
                         items: vec![
@@ -374,6 +407,7 @@ impl Component for Resume {
                 parts: vec![
                     Part {
                         title: "Rejections".to_string(),
+                        link: None,
                         role: "various".to_string(),
                         time: "2019 - 2020".to_string(),
                         items: vec![
@@ -386,6 +420,7 @@ impl Component for Resume {
                     },
                     Part {
                         title: "Missing dev swag".to_string(),
+                        link: None,
                         role: "lost in s̶p̶a̶c̶e̶transit".to_string(),
                         time: "2019—?!?".to_string(),
                         items: vec![
@@ -395,6 +430,7 @@ impl Component for Resume {
                     },
                     Part {
                         title: "Video games".to_string(),
+                        link: None,
                         role: "That I'm not very good at".to_string(),
                         time: "not often enough".to_string(),
                         items: vec![html! {"Too many to list"}],
