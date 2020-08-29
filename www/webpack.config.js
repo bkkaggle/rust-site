@@ -10,7 +10,7 @@ module.exports = {
 	mode: 'development',
 	plugins: [
 		new CopyWebpackPlugin(['index.html']),
-		new CopyWebpackPlugin(['style.css']),
+		new CopyWebpackPlugin(['index.css']),
 		new CopyWebpackPlugin(['favicon.png']),
 	],
 }

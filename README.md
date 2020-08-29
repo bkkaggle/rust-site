@@ -2,6 +2,13 @@
 
 ## instructions
 
+- `wasm-pack build`
+- `cd www`
+- `npm install`
+- `npm start`
+- `npm run build`
+- `npx gh-pages -b gh-pages -d dist`
+
 ## old setup
 
 - `cargo new --lib rust-site`

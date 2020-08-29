@@ -1,2 +1,1 @@
-import init from 'rust-site'
-init()
+import * as _wasm from 'bkkaggle-github-io'
