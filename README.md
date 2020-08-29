@@ -1,5 +1,9 @@
 # rust-site
 
+## instructions
+
+## old setup
+
 - `cargo new --lib rust-site`
 - `mkdir static`
 - `wasm-pack build --target web --out-name wasm --out-dir ./static`
