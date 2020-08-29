@@ -55,20 +55,20 @@
 /******/ 		"../pkg/bkkaggle_github_io_bg.wasm": function() {
 /******/ 			return {
 /******/ 				"./bkkaggle_github_io_bg.js": {
+/******/ 					"__wbindgen_string_new": function(p0i32,p1i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbindgen_string_new"](p0i32,p1i32);
+/******/ 					},
 /******/ 					"__wbindgen_object_drop_ref": function(p0i32) {
 /******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbindgen_object_drop_ref"](p0i32);
 /******/ 					},
 /******/ 					"__wbindgen_object_clone_ref": function(p0i32) {
 /******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbindgen_object_clone_ref"](p0i32);
 /******/ 					},
-/******/ 					"__wbindgen_cb_drop": function(p0i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbindgen_cb_drop"](p0i32);
-/******/ 					},
-/******/ 					"__wbindgen_string_new": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbindgen_string_new"](p0i32,p1i32);
-/******/ 					},
 /******/ 					"__wbindgen_is_undefined": function(p0i32) {
 /******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbindgen_is_undefined"](p0i32);
+/******/ 					},
+/******/ 					"__wbindgen_cb_drop": function(p0i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbindgen_cb_drop"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_new_59cb74e423758ede": function() {
 /******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_new_59cb74e423758ede"]();
@@ -78,18 +78,6 @@
 /******/ 					},
 /******/ 					"__wbg_error_4bb6c2a97407129a": function(p0i32,p1i32) {
 /******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_error_4bb6c2a97407129a"](p0i32,p1i32);
-/******/ 					},
-/******/ 					"__wbg_instanceof_Window_e8f84259147dce74": function(p0i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_instanceof_Window_e8f84259147dce74"](p0i32);
-/******/ 					},
-/******/ 					"__wbg_document_d3b6d86af1c5d199": function(p0i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_document_d3b6d86af1c5d199"](p0i32);
-/******/ 					},
-/******/ 					"__wbg_location_4c98b1eeb5ceccc0": function(p0i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_location_4c98b1eeb5ceccc0"](p0i32);
-/******/ 					},
-/******/ 					"__wbg_history_3de8d9a8b716d5e0": function(p0i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_history_3de8d9a8b716d5e0"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_createElement_d00b8e24838e36e1": function(p0i32,p1i32,p2i32) {
 /******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_createElement_d00b8e24838e36e1"](p0i32,p1i32,p2i32);
@@ -103,14 +91,29 @@
 /******/ 					"__wbg_querySelector_e0528b8b8b25e9be": function(p0i32,p1i32,p2i32) {
 /******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_querySelector_e0528b8b8b25e9be"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbg_instanceof_HtmlTextAreaElement_2be5c0dd95f91e2f": function(p0i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_instanceof_HtmlTextAreaElement_2be5c0dd95f91e2f"](p0i32);
+/******/ 					"__wbg_namespaceURI_36cdaf4b00c65482": function(p0i32,p1i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_namespaceURI_36cdaf4b00c65482"](p0i32,p1i32);
 /******/ 					},
-/******/ 					"__wbg_value_036b553531ffb781": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_value_036b553531ffb781"](p0i32,p1i32);
+/******/ 					"__wbg_removeAttribute_3ae98ff009f689b3": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_removeAttribute_3ae98ff009f689b3"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbg_setvalue_fc815a91d9a4dec3": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_setvalue_fc815a91d9a4dec3"](p0i32,p1i32,p2i32);
+/******/ 					"__wbg_setAttribute_156f15ecfed9f628": function(p0i32,p1i32,p2i32,p3i32,p4i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_setAttribute_156f15ecfed9f628"](p0i32,p1i32,p2i32,p3i32,p4i32);
+/******/ 					},
+/******/ 					"__wbg_addEventListener_27eb43df29303d67": function(p0i32,p1i32,p2i32,p3i32,p4i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_addEventListener_27eb43df29303d67"](p0i32,p1i32,p2i32,p3i32,p4i32);
+/******/ 					},
+/******/ 					"__wbg_removeEventListener_ccf115bbfa1fb019": function(p0i32,p1i32,p2i32,p3i32,p4i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_removeEventListener_ccf115bbfa1fb019"](p0i32,p1i32,p2i32,p3i32,p4i32);
+/******/ 					},
+/******/ 					"__wbg_state_a6faa97d2b62299c": function(p0i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_state_a6faa97d2b62299c"](p0i32);
+/******/ 					},
+/******/ 					"__wbg_pushState_e37da71e3deb8da5": function(p0i32,p1i32,p2i32,p3i32,p4i32,p5i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_pushState_e37da71e3deb8da5"](p0i32,p1i32,p2i32,p3i32,p4i32,p5i32);
+/******/ 					},
+/******/ 					"__wbg_replaceState_c1e57cfd0600163b": function(p0i32,p1i32,p2i32,p3i32,p4i32,p5i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_replaceState_c1e57cfd0600163b"](p0i32,p1i32,p2i32,p3i32,p4i32,p5i32);
 /******/ 					},
 /******/ 					"__wbg_instanceof_HtmlButtonElement_f5c73c981d727655": function(p0i32) {
 /******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_instanceof_HtmlButtonElement_f5c73c981d727655"](p0i32);
@@ -133,29 +136,23 @@
 /******/ 					"__wbg_setvalue_dc3cce23da13c2e9": function(p0i32,p1i32,p2i32) {
 /******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_setvalue_dc3cce23da13c2e9"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbg_addEventListener_27eb43df29303d67": function(p0i32,p1i32,p2i32,p3i32,p4i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_addEventListener_27eb43df29303d67"](p0i32,p1i32,p2i32,p3i32,p4i32);
+/******/ 					"__wbg_instanceof_HtmlTextAreaElement_2be5c0dd95f91e2f": function(p0i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_instanceof_HtmlTextAreaElement_2be5c0dd95f91e2f"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_removeEventListener_ccf115bbfa1fb019": function(p0i32,p1i32,p2i32,p3i32,p4i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_removeEventListener_ccf115bbfa1fb019"](p0i32,p1i32,p2i32,p3i32,p4i32);
+/******/ 					"__wbg_value_036b553531ffb781": function(p0i32,p1i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_value_036b553531ffb781"](p0i32,p1i32);
 /******/ 					},
-/******/ 					"__wbg_namespaceURI_36cdaf4b00c65482": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_namespaceURI_36cdaf4b00c65482"](p0i32,p1i32);
+/******/ 					"__wbg_setvalue_fc815a91d9a4dec3": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_setvalue_fc815a91d9a4dec3"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbg_removeAttribute_3ae98ff009f689b3": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_removeAttribute_3ae98ff009f689b3"](p0i32,p1i32,p2i32);
+/******/ 					"__wbg_pathname_e5d7dbebdeeddf83": function(p0i32,p1i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_pathname_e5d7dbebdeeddf83"](p0i32,p1i32);
 /******/ 					},
-/******/ 					"__wbg_setAttribute_156f15ecfed9f628": function(p0i32,p1i32,p2i32,p3i32,p4i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_setAttribute_156f15ecfed9f628"](p0i32,p1i32,p2i32,p3i32,p4i32);
+/******/ 					"__wbg_search_9444c9b4f9d75474": function(p0i32,p1i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_search_9444c9b4f9d75474"](p0i32,p1i32);
 /******/ 					},
-/******/ 					"__wbg_state_a6faa97d2b62299c": function(p0i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_state_a6faa97d2b62299c"](p0i32);
-/******/ 					},
-/******/ 					"__wbg_pushState_e37da71e3deb8da5": function(p0i32,p1i32,p2i32,p3i32,p4i32,p5i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_pushState_e37da71e3deb8da5"](p0i32,p1i32,p2i32,p3i32,p4i32,p5i32);
-/******/ 					},
-/******/ 					"__wbg_replaceState_c1e57cfd0600163b": function(p0i32,p1i32,p2i32,p3i32,p4i32,p5i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_replaceState_c1e57cfd0600163b"](p0i32,p1i32,p2i32,p3i32,p4i32,p5i32);
+/******/ 					"__wbg_hash_118e5e08a994d5a7": function(p0i32,p1i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_hash_118e5e08a994d5a7"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_lastChild_b7825410c31c6d62": function(p0i32) {
 /******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_lastChild_b7825410c31c6d62"](p0i32);
@@ -178,26 +175,32 @@
 /******/ 					"__wbg_state_1eb59e81cf66c118": function(p0i32) {
 /******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_state_1eb59e81cf66c118"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_pathname_e5d7dbebdeeddf83": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_pathname_e5d7dbebdeeddf83"](p0i32,p1i32);
+/******/ 					"__wbg_instanceof_Window_e8f84259147dce74": function(p0i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_instanceof_Window_e8f84259147dce74"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_search_9444c9b4f9d75474": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_search_9444c9b4f9d75474"](p0i32,p1i32);
+/******/ 					"__wbg_document_d3b6d86af1c5d199": function(p0i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_document_d3b6d86af1c5d199"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_hash_118e5e08a994d5a7": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_hash_118e5e08a994d5a7"](p0i32,p1i32);
+/******/ 					"__wbg_location_4c98b1eeb5ceccc0": function(p0i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_location_4c98b1eeb5ceccc0"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_call_e9f0ce4da840ab94": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_call_e9f0ce4da840ab94"](p0i32,p1i32);
+/******/ 					"__wbg_history_3de8d9a8b716d5e0": function(p0i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_history_3de8d9a8b716d5e0"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_newnoargs_e2fdfe2af14a2323": function(p0i32,p1i32) {
 /******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_newnoargs_e2fdfe2af14a2323"](p0i32,p1i32);
+/******/ 					},
+/******/ 					"__wbg_call_e9f0ce4da840ab94": function(p0i32,p1i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_call_e9f0ce4da840ab94"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_is_a2bc492e20d950cf": function(p0i32,p1i32) {
 /******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_is_a2bc492e20d950cf"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_new_8172f4fed77fdb7c": function() {
 /******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_new_8172f4fed77fdb7c"]();
+/******/ 					},
+/******/ 					"__wbg_set_afe54b1eeb1aa77c": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_set_afe54b1eeb1aa77c"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_self_179e8c2a5a4c73a3": function() {
 /******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_self_179e8c2a5a4c73a3"]();
@@ -211,9 +214,6 @@
 /******/ 					"__wbg_global_62ea2619f58bf94d": function() {
 /******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_global_62ea2619f58bf94d"]();
 /******/ 					},
-/******/ 					"__wbg_set_afe54b1eeb1aa77c": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbg_set_afe54b1eeb1aa77c"](p0i32,p1i32,p2i32);
-/******/ 					},
 /******/ 					"__wbindgen_string_get": function(p0i32,p1i32) {
 /******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbindgen_string_get"](p0i32,p1i32);
 /******/ 					},
@@ -223,11 +223,8 @@
 /******/ 					"__wbindgen_throw": function(p0i32,p1i32) {
 /******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbindgen_throw"](p0i32,p1i32);
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper541": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbindgen_closure_wrapper541"](p0i32,p1i32,p2i32);
-/******/ 					},
-/******/ 					"__wbindgen_closure_wrapper227": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbindgen_closure_wrapper227"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper991": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbindgen_closure_wrapper991"](p0i32,p1i32,p2i32);
 /******/ 					}
 /******/ 				}
 /******/ 			};
@@ -330,7 +327,7 @@
 /******/ 				promises.push(installedWasmModuleData);
 /******/ 			else {
 /******/ 				var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/bkkaggle_github_io_bg.wasm":"fe9f5253567310d0ed95"}[wasmModuleId] + ".module.wasm");
+/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/bkkaggle_github_io_bg.wasm":"d6495897d875e871b4cf"}[wasmModuleId] + ".module.wasm");
 /******/ 				var promise;
 /******/ 				if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 					promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
