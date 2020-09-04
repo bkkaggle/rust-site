@@ -39,7 +39,7 @@ impl Component for AppRouter {
                             <RouterButton<AppRoute> route=AppRoute::Index classes="block"> {"Home"} </RouterButton<AppRoute>>
                             <RouterButton<AppRoute> route=AppRoute::Uses classes="block"> {"Uses"} </RouterButton<AppRoute>>
 
-                            <a href="https://docs.google.com/document/d/1DpiKECBhfJTCwUIBjQKLalEfrL6AK9rQLA7PabPfGpY/edit?usp=sharing">
+                            <a href="https://drive.google.com/file/d/1cPg7WyNQ4hIzEw58KPy5SSEXsa2rd1LD/view?usp=sharing">
                                 <div class="block"><span>{"Resume"}</span></div>
                             </a>
 
@@ -52,7 +52,7 @@ impl Component for AppRouter {
                             <h1>{"I'm Bilal"}</h1>
                             <h3>{"UWaterloo SE '25 — I like working on ML and systems programming projects"}</h3>
                             <h4>
-                            {"In the past, you could find me training neural networks, writing "} <a href="https://github.com/bkkaggle/L2">{"fast machine learning libraries"}</a> {", and doing full-stack and mobile development."}
+                            {"In the past, you could find me competing on Kaggle, training neural networks, writing "} <a href="https://github.com/bkkaggle/L2">{"fast machine learning libraries"}</a> {", and doing full-stack and mobile development."}
                             </h4>
                         </div>
 

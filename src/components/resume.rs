@@ -98,8 +98,8 @@ impl Component for Resume {
                                 <span>
                                     {"I wrote up a series of blog posts on what I learned over the three
                                     months that I was working on this: "}
-                                    <a href="/2020/6/22/nlp-series-1/">{"Part 1"}</a>{" and "}
-                                    <a href="/2020/6/22/nlp-series-1/">{"Part 2"}</a>
+                                    <a href="/blog/nlp-research-part-1/">{"Part 1"}</a>{" and "}
+                                    <a href="/blog/nlp-research-part-2/">{"Part 2"}</a>
                                 </span>
                             },
                             html! {
@@ -296,7 +296,7 @@ impl Component for Resume {
                                     {"You can take a look at it on the Github "}
                                     <a href="https://github.com/bkkaggle/machine-learning-flight-rules">
                                         {"repo"}
-                                    </a>{" or as a "}<a href="/blog/2020/7/3/ml-flight-rules/">{"blog post"}</a>
+                                    </a>{" or as a "}<a href="/blog/ml-flight-rules/">{"blog post"}</a>
                                 </span>
                             },
                         ],
@@ -361,19 +361,19 @@ impl Component for Resume {
                             html! {
                                 <span>
                                     {"I'm writing up a continuing"}
-                                    <a href="/2020/3/25/notes-1-normalization/">{"series"}</a>{" of posts on notes that I've been making for myself about certain ML topics and papers."}
+                                    <a href="/blog/normalization/">{"series"}</a>{" of posts on notes that I've been making for myself about certain ML topics and papers."}
                                 </span>
                             },
                             html! {
                                 <span>
                                     {"I've also finished writing a long-form (~5k words) two part blog post on
-                                    the NLP research project I was talking about above: "} <a href="/2020/6/22/nlp-series-1/">{"Part 1"}</a>{" and "}
-                                    <a href="/2020/6/22/nlp-series-1/">{" Part 2"}</a>
+                                    the NLP research project I was talking about above: "} <a href="/blog/nlp-research-part-1/">{"Part 1"}</a>{" and "}
+                                    <a href="/blog/nlp-research-part-2/">{" Part 2"}</a>
                                 </span>
                             },
                             html! {
                                 <span>
-                                    {"I'm currently (kinda) working on polishing up a really "} <a href="/2020/8/02/l2/">{"long post"}</a>{" on how to build a PyTorch-style machine learning library in Rust."}
+                                    {"I'm currently (kinda) working on polishing up a really "} <a href="/blog/l2/">{"long post"}</a>{" on how to build a PyTorch-style machine learning library in Rust."}
                                 </span>
                             },
                         ],
