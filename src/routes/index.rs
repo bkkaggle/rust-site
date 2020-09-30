@@ -20,8 +20,8 @@ impl Component for Index {
     fn view(&self) -> Html {
         html! {
             <div id="right">
-                <Projects />
-                <Resume />
+                // <Projects />
+                // <Resume />
             </div>
         }
     }
