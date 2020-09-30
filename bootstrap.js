@@ -223,8 +223,8 @@
 /******/ 					"__wbindgen_throw": function(p0i32,p1i32) {
 /******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbindgen_throw"](p0i32,p1i32);
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper991": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbindgen_closure_wrapper991"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper483": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["../pkg/bkkaggle_github_io_bg.js"].exports["__wbindgen_closure_wrapper483"](p0i32,p1i32,p2i32);
 /******/ 					}
 /******/ 				}
 /******/ 			};
@@ -327,7 +327,7 @@
 /******/ 				promises.push(installedWasmModuleData);
 /******/ 			else {
 /******/ 				var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/bkkaggle_github_io_bg.wasm":"0102b96f0bfcb65805b8"}[wasmModuleId] + ".module.wasm");
+/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/bkkaggle_github_io_bg.wasm":"f3fb89db7ac2f3db7765"}[wasmModuleId] + ".module.wasm");
 /******/ 				var promise;
 /******/ 				if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 					promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
