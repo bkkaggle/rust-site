@@ -57,7 +57,7 @@ impl Component for AppRouter {
 
                         </div>
                         <p>{"If you think my projects (or me) are interesting please don't hesitate to contact me!"}</p>
-                        <p>{"The best way to contact me is probably through discord: bkkaggle#8916"}
+                        <p>{"The best way to contact me is probably through discord: bilal2vec#8916"}
                         </p>
                         <p>{" Alternatively, send me an email "} <a href="mailto:bilal.khan1@uwaterloo.ca">{"bilal.khan1@uwaterloo.ca"}</a>  {" or look me up on my "} <a href="https://linktr.ee/bkkaggle">{"other online profiles"}</a></p>
                         // <div class="block fixed" id="social-links">
