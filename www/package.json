@@ -1,5 +1,5 @@
 {
-	"name": "bilal2vec.github.io",
+	"name": "bkkaggle.github.io",
 	"version": "0.1.0",
 	"description": "Bilal's website",
 	"main": "index.js",
@@ -8,9 +8,9 @@
 		"start": "webpack-dev-server"
 	},
 	"author": "Bilal Khan <bilal.khan1@uwaterloo.ca>",
-	"homepage": "bilal2vec.github.io",
+	"homepage": "bkkaggle.github.io",
 	"dependencies": {
-		"bilal2vec-github-io": "file:../pkg"
+		"bkkaggle-github-io": "file:../pkg"
 	},
 	"devDependencies": {
 		"webpack": "^4.29.3",

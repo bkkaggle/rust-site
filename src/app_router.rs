@@ -43,7 +43,7 @@ impl Component for AppRouter {
                                 <div class="block"><span>{"Resume"}</span></div>
                             </a>
 
-                            <a href="https://bilal2vec.github.io/blog">
+                            <a href="https://bkkaggle.github.io/blog">
                                 <div class="block accent"><span>{"Blog"}</span></div>
                             </a>
                         </div>
@@ -52,24 +52,24 @@ impl Component for AppRouter {
                             <h1>{"I'm Bilal"}</h1>
                             <h3>{"UWaterloo SE '25 — I like working on ML research and systems programming projects"}</h3>
                             <p>
-                            {"In the past, you could find me competing on Kaggle, training neural networks, writing "} <a href="https://github.com/bilal2vec/L2">{"fast machine learning libraries"}</a> {", and doing full-stack and mobile development."}
+                            {"In the past, you could find me competing on Kaggle, training neural networks, writing "} <a href="https://github.com/bkkaggle/L2">{"fast machine learning libraries"}</a> {", and doing full-stack and mobile development."}
                             </p>
 
                         </div>
                         <p>{"If you think my projects (or me) are interesting please don't hesitate to contact me!"}</p>
-                        <p>{"The best way to contact me is probably through discord: bilal2vec#8916"}
+                        <p>{"The best way to contact me is probably through discord: bkkaggle#8916"}
                         </p>
-                        <p>{" Alternatively, send me an email "} <a href="mailto:bilal.khan1@uwaterloo.ca">{"bilal.khan1@uwaterloo.ca"}</a>  {" or look me up on my "} <a href="https://linktr.ee/bilal2vec">{"other online profiles"}</a></p>
+                        <p>{" Alternatively, send me an email "} <a href="mailto:bilal.khan1@uwaterloo.ca">{"bilal.khan1@uwaterloo.ca"}</a>  {" or look me up on my "} <a href="https://linktr.ee/bkkaggle">{"other online profiles"}</a></p>
                         // <div class="block fixed" id="social-links">
 
 
                         //     <div class="flex-horizontal">
 
-                        //         <a href="https://github.com/bilal2vec">
+                        //         <a href="https://github.com/bkkaggle">
                         //             <span style="color:#24292e"><svg aria-hidden="false" aria-label="GitHub" class="mr-2" height="20" role="img" viewBox="0 0 16 16" width="20" style="display:inline-block;fill:currentColor;user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg></span>
                         //         </a>
 
-                        //         <a href="https://kaggle.com/bilal2vec">
+                        //         <a href="https://kaggle.com/bkkaggle">
                         //             <img
                         //                 alt="Kaggle profile for Bilal Khan"
                         //                 src="https://kaggle.com/static/images/favicon.ico"
@@ -77,7 +77,7 @@ impl Component for AppRouter {
                         //             />
                         //         </a>
 
-                        //         <a href="https://medium.com/@bilal2vec">
+                        //         <a href="https://medium.com/@bkkaggle">
                         //             <img
                         //                 alt="Medium profile for Bilal Khan"
                         //                 src="https://miro.medium.com/max/195/1*emiGsBgJu2KHWyjluhKXQw.png"
@@ -93,7 +93,7 @@ impl Component for AppRouter {
                         //             />
                         //         </a>
 
-                        //         <a href="https://dev.to/bilal2vec">
+                        //         <a href="https://dev.to/bkkaggle">
                         //             <img
                         //                 alt="Dev.to profile for Bilal Khan"
                         //                 src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
