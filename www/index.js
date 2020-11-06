@@ -1,1 +1,1 @@
-import * as _wasm from 'bkkaggle-github-io'
+import * as _wasm from 'bilal2vec-github-io'

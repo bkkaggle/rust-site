@@ -85,7 +85,7 @@ impl Component for Resume {
                     Part {
                         title: "NLP research project".to_string(),
                         link: Some(
-                            "https://github.com/bkkaggle/lm-training-research-project".to_string(),
+                            "https://github.com/bilal2vec/lm-training-research-project".to_string(),
                         ),
                         role: "Replicated OpenAI's GPT-2 model".to_string(),
                         time: "March 2020 - May 2020".to_string(),
@@ -105,8 +105,8 @@ impl Component for Resume {
                             html! {
                                 <span>
                                     {"My code for this project is spread across a few Github repos "}
-                                    <a href="https://github.com/bkkaggle/lm-finetuning">{"here"}</a>{" and "}
-                                    <a href="https://github.com/bkkaggle/lm-training-research-project">
+                                    <a href="https://github.com/bilal2vec/lm-finetuning">{"here"}</a>{" and "}
+                                    <a href="https://github.com/bilal2vec/lm-training-research-project">
                                         {"here"}
                                     </a>
                                 </span>
@@ -125,14 +125,14 @@ impl Component for Resume {
                     },
                     Part {
                         title: "Kaggle".to_string(),
-                        link: Some("https://kaggle.com/bkkaggle".to_string()),
+                        link: Some("https://kaggle.com/bilal2vec".to_string()),
                         role: "Highest rank: 798/124,000+".to_string(),
                         time: "Dec 2017 - July 2019".to_string(),
                         items: vec![
                             html! {
                                 <span>
                                     {"I used to spend a lot of time competing in Kaggle competitions, winning "}
-                                    <a href="https://kaggle.com/bkkaggle">{"a few medals along the way"}</a>{" (1 silver
+                                    <a href="https://kaggle.com/bilal2vec">{"a few medals along the way"}</a>{" (1 silver
                                     and 4 bronze)."}
                                 </span>
                             },
@@ -147,7 +147,7 @@ impl Component for Resume {
                                     {" , where I worked on reconstructing the path of particles from 3d points
                                     left in silicon detectors in a simulated version of a more powerful
                                     version of the Large Hadron Collider. I put all of my work on github "}
-                                    <a href="https://github.com/bkkaggle/TrackML">{"here."}</a>
+                                    <a href="https://github.com/bilal2vec/TrackML">{"here."}</a>
                                 </span>
 
                             },
@@ -190,16 +190,16 @@ impl Component for Resume {
                 parts: vec![
                     Part {
                         title: "Raytracer".to_string(),
-                        link: Some("https://github.com/bkkaggle/raytracer".to_string()),
+                        link: Some("https://github.com/bilal2vec/raytracer".to_string()),
                         role: "A simple raytracer book that I followed".to_string(),
                         time: "July 2020".to_string(),
                         items: vec![
                             html! {
                                 <span>
                                     {"I made a simple "}
-                                    <a href="https://github.com/bkkaggle/raytracer">{"ray tracer"}</a>{" following
+                                    <a href="https://github.com/bilal2vec/raytracer">{"ray tracer"}</a>{" following
                                     the "}
-                                    <a href="https://github.com/bkkaggle/raytracer">
+                                    <a href="https://github.com/bilal2vec/raytracer">
                                         {"Ray Tracing in One Weekend"}
                                     </a>
                                     {" book"}
@@ -210,13 +210,13 @@ impl Component for Resume {
                     },
                     Part {
                         title: "L2".to_string(),
-                        link: Some("https://github.com/bkkaggle/L2".to_string()),
+                        link: Some("https://github.com/bilal2vec/L2".to_string()),
                         role: "A fast, BLAS-accelerated machine learing library".to_string(),
                         time: "May 2020 - June 2020".to_string(),
                         items: vec![
                             html! {
                                 <span>
-                                    <a href="https://github.com/bkkaggle/L2">{"L2"}</a>{" is an extremely fast
+                                    <a href="https://github.com/bilal2vec/L2">{"L2"}</a>{" is an extremely fast
                                     machine learning library written in Rust. It supports most major math
                                     operations (including fast, BLAS-accelerated matrix multiplication) and
                                     has an efficient graph-based automatic differentiation engine that
@@ -225,7 +225,7 @@ impl Component for Resume {
                             },
                             html! {
                                 <span>
-                                    {"I also wrote a "} <a href="https://github.com/bkkaggle/L2/tree/c%2B%2B">{"C++ version"}</a>{" of the library back in 2019."}
+                                    {"I also wrote a "} <a href="https://github.com/bilal2vec/L2/tree/c%2B%2B">{"C++ version"}</a>{" of the library back in 2019."}
                                 </span>
                             },
                             html! {
@@ -249,19 +249,19 @@ impl Component for Resume {
                     },
                     Part {
                         title: "Competitive programming".to_string(),
-                        link: Some("https://github.com/bkkaggle/ccc".to_string()),
+                        link: Some("https://github.com/bilal2vec/ccc".to_string()),
                         role: "Solutions and notes".to_string(),
                         time: "Feb 2020".to_string(),
                         items: vec![html! {
                             <span>
-                                {"My "}<a href="https://github.com/bkkaggle/ccc">{"notes and solutions"}</a>{" for
+                                {"My "}<a href="https://github.com/bilal2vec/ccc">{"notes and solutions"}</a>{" for
                                 past CCC contests in Python and C++."}
                             </span>
                         }],
                     },
                     Part {
                         title: "Pytorch Zoo".to_string(),
-                        link: Some("https://github.com/bkkaggle/pytorch_zoo".to_string()),
+                        link: Some("https://github.com/bilal2vec/pytorch_zoo".to_string()),
                         role: "A Pytorch utility library".to_string(),
                         time: "June 2019".to_string(),
                         items: vec![
@@ -285,7 +285,7 @@ impl Component for Resume {
                     Part {
                         title: "Machine Learning Flight Rules".to_string(),
                         link: Some(
-                            "https://github.com/bkkaggle/machine-learning-flight-rules".to_string(),
+                            "https://github.com/bilal2vec/machine-learning-flight-rules".to_string(),
                         ),
                         role: "A guide".to_string(),
                         time: "Sep 2019".to_string(),
@@ -294,7 +294,7 @@ impl Component for Resume {
                             html! {
                                 <span>
                                     {"You can take a look at it on the Github "}
-                                    <a href="https://github.com/bkkaggle/machine-learning-flight-rules">
+                                    <a href="https://github.com/bilal2vec/machine-learning-flight-rules">
                                         {"repo"}
                                     </a>{" or as a "}<a href="/blog/ml-flight-rules/">{"blog post"}</a>
                                 </span>
@@ -304,7 +304,7 @@ impl Component for Resume {
                     Part {
                         title: "Handwritten math expression recognition".to_string(),
                         link: Some(
-                            "https://github.com/bkkaggle/math-expression-recognition".to_string(),
+                            "https://github.com/bilal2vec/math-expression-recognition".to_string(),
                         ),
                         role: "Implemented papers".to_string(),
                         time: "Feb 2019 - May 2019".to_string(),
@@ -313,16 +313,16 @@ impl Component for Resume {
                             html! {
                                 <span>
                                     {"I put all my code for this on Github "}
-                                    <a href="https://github.com/bkkaggle/math-expression-recognition">
+                                    <a href="https://github.com/bilal2vec/math-expression-recognition">
                                         {"here"}
-                                    </a>{" and "}<a href="https://github.com/bkkaggle/math-recognition">{"here"}</a>
+                                    </a>{" and "}<a href="https://github.com/bilal2vec/math-recognition">{"here"}</a>
                                 </span>
                             },
                         ],
                     },
                     Part {
                         title: "Mission Control".to_string(),
-                        link: Some("https://bkkaggle.github.io/mission-control".to_string()),
+                        link: Some("https://bilal2vec.github.io/mission-control".to_string()),
                         role: "View pictures beamed back from Mars".to_string(),
                         time: "Dec 2017".to_string(),
                         items: vec![
@@ -330,10 +330,10 @@ impl Component for Resume {
                             html! {
                                 <span>
                                     {"I'm surprised the website's still up at "}
-                                    <a href="https://bkkaggle.github.io/mission-control/">
-                                        {"bkkaggle.github.io/mission-control"}
+                                    <a href="https://bilal2vec.github.io/mission-control/">
+                                        {"bilal2vec.github.io/mission-control"}
                                     </a>{". The code is available "}
-                                    <a href="https://github.com/bkkaggle/mission-control">{"here"}</a>
+                                    <a href="https://github.com/bilal2vec/mission-control">{"here"}</a>
                                 </span>
                             },
                         ],
