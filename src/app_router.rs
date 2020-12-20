@@ -23,9 +23,6 @@ impl Component for AppRouter {
                 <div class="flex-horizontal center">
                     <div class="flex-vertical stack">
                         <div class="flex-horizontal left" id="buttons">
-                            <a href="/">
-                                <div class="block"><span>{"home"}</span></div>
-                            </a>
                             <a href="https://drive.google.com/file/d/1cPg7WyNQ4hIzEw58KPy5SSEXsa2rd1LD/view?usp=sharing">
                                 <div class="block"><span>{"resume"}</span></div>
                             </a>
@@ -37,7 +34,7 @@ impl Component for AppRouter {
                         <div class="left">
                             <h1>{"hi i'm bilal!"}</h1>
                         </div>
-                        <h4>{"uwaterloo software engineering '25 — i'm currently interested in machine learning research, particularly in generative modeling."}</h4>
+                        <h4>{"uwaterloo software engineering '25 — i'm currently interested in machine learning research, particularly in generative modeling. a little bit about me:"}</h4>
                         // <h4>{"things i've done (or failed to do):"}</h4>
                         <ul>
                             <li>{"i used to have an unhealthy obsession with spending way too much time competing in "} <a href="https://www.kaggle.com/bkkaggle">{"kaggle"}</a>{" competitions for a couple of years."}</li>
