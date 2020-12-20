@@ -1,7 +1,5 @@
 use yew::prelude::*;
 
-use crate::components::{projects::Projects, resume::Resume};
-
 pub struct Index {}
 
 impl Component for Index {
@@ -18,11 +16,6 @@ impl Component for Index {
         false
     }
     fn view(&self) -> Html {
-        html! {
-            <div id="right">
-                // <Projects />
-                // <Resume />
-            </div>
-        }
+        html! {<></>}
     }
 }

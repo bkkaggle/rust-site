@@ -1,5 +1,21 @@
 body {
-	font-family: 'Montserrat';
+	font-family: 'Roboto';
+	/* line-height: 1.5em; */
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+li {
+	line-height: 1.4em;
+	font-size: 16px;
+}
+
+p {
+	font-size: 16px;
 }
 
 a {
@@ -9,6 +25,41 @@ a {
 
 a:hover {
 	text-decoration-line: underline;
+}
+
+#buttons a:hover {
+	text-decoration-line: none;
+}
+
+.left {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	/* background-color: red; */
+	width: 100%;
+}
+
+.center {
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.stack {
+	max-width: 600px;
+	justify-self: center;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.row {
+	display: inline;
+	clear: none;
+}
+
+.temp {
+	width: 100%;
 }
 
 .seriftext {
