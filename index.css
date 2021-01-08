@@ -1,0 +1,74 @@
+body {
+	font-family: 'Roboto';
+}
+
+h1 {
+	font-size: 48px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+h3 {
+	margin-top: 0px;
+	margin-bottom: 0;
+	display: inline;
+}
+
+li {
+	line-height: 1.4em;
+	font-size: 18px;
+}
+
+p {
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+a {
+	text-decoration-line: none;
+	color: #0366d6;
+}
+
+a:hover {
+	text-decoration-line: underline;
+}
+::selection {
+	background-color: #f9f077;
+}
+
+.center {
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.stack {
+	max-width: 600px;
+	justify-self: center;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.left {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+.left a:hover {
+	text-decoration-line: none;
+}
+
+.flex-horizontal {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-vertical {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

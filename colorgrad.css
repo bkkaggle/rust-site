@@ -1,0 +1,62 @@
+.colorgrad {
+	background-color: rgba(0, 0, 0, 0);
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-image: repeating-linear-gradient(
+		-45deg,
+		#0054fd,
+		#ff19f7 7.14%,
+		#ff2e5d 14.28%,
+		#ffaa07 21.42%,
+		#ffaa07 28.56%,
+		#ff2e5d 35.7%,
+		#ff2e5d 42.84%,
+		#0054fd 50%
+	);
+	background-size: 600vw 600vw;
+	background-origin: padding-box;
+	-webkit-background-clip: text;
+	-webkit-animation: 60s linear 0s infinite normal forwards running followThrough;
+	-moz-animation: 60s linear 0s infinite normal forwards running followThrough;
+	animation: 60s linear 0s infinite normal forwards running followThrough;
+
+	-webkit-text-fill-color: transparent;
+}
+
+@keyframes followThrough {
+	0% {
+		background-position: 0% 0%;
+	}
+	50% {
+		background-position: 50% 50%;
+	}
+	100% {
+		background-position: 0% 0%;
+	}
+}
+
+@-webkit-keyframes followThrough {
+	0% {
+		background-position: 0% 0%;
+	}
+	50% {
+		background-position: 50% 50%;
+	}
+	100% {
+		background-position: 0% 0%;
+	}
+}
+
+@-moz-keyframes followThrough {
+	0% {
+		background-position: 0% 0%;
+	}
+	50% {
+		background-position: 50% 50%;
+	}
+	100% {
+		background-position: 0% 0%;
+	}
+}
