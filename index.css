@@ -10,31 +10,29 @@ h1 {
 
 h3 {
 	margin-top: 0px;
-	margin-bottom: 0;
 	display: inline;
 }
 
-li {
-	line-height: 1.4em;
-	font-size: 18px;
-}
-
+img,
 p {
-	font-size: 18px;
-	margin-top: 10px;
+	margin-top: 0;
 	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 10px;
 }
 
 a {
+	color: black;
 	text-decoration-line: none;
-	color: #0366d6;
 }
 
-a:hover {
-	text-decoration-line: underline;
-}
 ::selection {
 	background-color: #f9f077;
+}
+
+.flex-horizontal {
+	display: flex;
+	flex-direction: row;
 }
 
 .center {
@@ -42,6 +40,12 @@ a:hover {
 	align-items: center;
 	justify-content: center;
 	width: 100%;
+}
+
+.flex-vertical {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .stack {
@@ -56,19 +60,4 @@ a:hover {
 	flex-direction: row;
 	justify-content: flex-start;
 	width: 100%;
-}
-
-.left a:hover {
-	text-decoration-line: none;
-}
-
-.flex-horizontal {
-	display: flex;
-	flex-direction: row;
-}
-
-.flex-vertical {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 }
