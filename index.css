@@ -61,3 +61,8 @@ a {
 	justify-content: flex-start;
 	width: 100%;
 }
+
+#resume {
+	margin-top: 20px;
+	margin-left: 20px;
+}
